@@ -1,3 +1,15 @@
 {
   "settingsInheritedFrom": "Mychelle-test-org/whitesource-config@main"
 }
+{ 
+  "scanSettings": {
+    "baseBranches": ["development"]
+  },
+  "imageSettings": {
+    "imageTracing": {
+        "enableImageTracingPR": true,
+        "addDockerfilePath": true,
+        "addRepositoryCoordinates": true
+    }
+  }
+}
