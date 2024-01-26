@@ -3,7 +3,7 @@
 }
 { 
   "scanSettings": {
-    "baseBranches": ["development"]
+    "baseBranches": ["main"]
   },
   "imageSettings": {
     "imageTracing": {
