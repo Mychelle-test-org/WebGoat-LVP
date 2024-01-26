@@ -16,7 +16,7 @@ EXPOSE 9090
 
 WORKDIR /home/webgoat
 LABEL io.mend.image.dockerfile.path=Dockerfile
-LABEL org.opencontainers.image.source=https://github.com/<your github org>/WebGoat
+LABEL org.opencontainers.image.source=https://github.com/Mychelle-test-org/WebGoat
 ENTRYPOINT [ "java", \
    "-Duser.home=/home/webgoat", \
    "-Dfile.encoding=UTF-8", \
