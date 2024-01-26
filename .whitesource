@@ -1,3 +1,28 @@
 {
-  "settingsInheritedFrom": "Mychelle-test-org/whitesource-config@main"
+ "settingsInheritedFrom": "mychelle-test-org/whitesource-config@main",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableReachability": true,
+    "enableLicenseViolations": true,
+    "baseBranches": [],
+    "exploitability": true,
+    "releaseBranches": ["v2023.4.1"]
+    },
+    "releaseBranchSettings" : {
+    "checkRunSettings": {
+    "showWsInfo" : true, 
+    "failOnLicenseViolation" : false,
+    "failOnIacFindings" : false,
+    "strictMode" : "none"
+    },
+    "enableRenovate": true,
+     "extends": ["mergeConfidence:all-badges"]
+  }
+ }
 }
+
