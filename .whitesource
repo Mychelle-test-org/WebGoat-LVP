@@ -1,5 +1,5 @@
 {
- "settingsInheritedFrom": "Mychelle-test-org/whitesource-config@main",
+ "settingsInheritedFrom": "https://github.com/Mychelle-test-org",
   "remediateSettings": {
     "workflowRules": {
       "enabled": false
