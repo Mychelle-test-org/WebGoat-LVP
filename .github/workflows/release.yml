@@ -76,3 +76,4 @@ jobs:
           curl -LJO https://downloads.mend.io/production/unified/latest/linux_amd64/mend && chmod +x mend
           echo "Start Mend image scan"
           ./mend image ${{github.repository}}:${{env.WEBGOAT_TAG_VERSION}} -s *//GH_${{github.event.repository.name}}//GH_${{github.event.repository.name}}
+
